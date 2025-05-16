@@ -25,6 +25,7 @@ class TP6ListsCases(unittest.TestCase):
         result1 = ex1.add_elements(list1)
         expected1 = ['Pink', 'Red', 'Green', 'White', 'Black', 'Yellow']
         self.assertEqual(expected1, result1)
+        
 
         list2 = []
         result2 = ex1.add_elements(list2)
